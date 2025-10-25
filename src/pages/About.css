@@ -1,0 +1,94 @@
+.about-container {
+  background-color: #74e2d7; /* ✅ Light eco-friendly green-blue background */
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #14532d;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.timeline-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.timeline-section h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.timeline-item {
+  background-color: #701c1c;
+  border-left: 4px solid #f2f4f3;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-year {
+  position: absolute;
+  top: -14px;
+  left: -30px;
+  background-color: #2aae5a;
+  color: rgb(6, 1, 1);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.timeline-content h4 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #d2ecdd;
+}
+
+.timeline-content p {
+  font-size: 16px;
+  color: #ece7e7;
+}
+@media screen and (max-width: 600px) {
+  .about-container {
+    padding: 20px 10px;
+    text-align: left;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .timeline-year {
+    left: -20px;
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  .timeline-content h4 {
+    font-size: 18px;
+  }
+
+  .timeline-content p {
+    font-size: 14px;
+  }
+
+  .video-section h3 {
+    font-size: 20px;
+  }
+
+  .video-section iframe,
+  .video-section video {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,64 @@
+.models-container {
+  background-color: #05c86d;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #06180d;
+  text-align: center;
+}
+
+.models-container h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.models-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.model-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.model-card {
+  background-color: #b4d5d0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(226, 14, 14, 0.1);
+}
+
+.model-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.model-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.process-section {
+  margin-top: 40px;
+}
+
+.process-section h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.process-section ol {
+  list-style-position: inside;
+  font-size: 17px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+

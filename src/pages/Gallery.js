@@ -20,7 +20,7 @@ const allImages = [
     src: '/tank3.jpg',
     caption: 'Model C - Dual Chamber',
     category: 'model',
-    whatsappMessage: 'Hello Green World, I am interested in Model A - Compact Design. Please share more details.'
+    whatsappMessage: 'Hello Green World, I am interested in Model C - Dual Chamber. Please share more details.'
   },
   {
     src: '/tank4.jpg',
@@ -95,7 +95,6 @@ function Gallery() {
       <div className="gallery-buttons">
         <button onClick={() => setSelectedCategory('all')}>All</button>
         <button onClick={() => setSelectedCategory('model')}>Models</button>
-        <button onClick={() => setSelectedCategory('installation')}>Installations</button>
       </div>
 
       <div className="gallery-grid">

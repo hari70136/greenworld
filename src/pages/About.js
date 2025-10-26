@@ -50,8 +50,9 @@ function About() {
     <div className="timeline-item">
       <div className="timeline-year">2023</div>
       <div className="timeline-content">
-        <h4>First 100 Installations</h4>
-        <p>Installed our first 100 bio septic tanks across schools, homes, and farms.</p>
+
+        <h4>Installations</h4>
+        <p>Installed our Bio Septic Tanks across Schools, Homes, and ready for Apartments.</p>
       </div>
     </div>
     <div className="timeline-item">

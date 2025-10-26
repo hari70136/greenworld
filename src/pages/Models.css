@@ -1,5 +1,5 @@
 .models-container {
-  background-color: #05c86d;
+  background-color: #21b570;
   min-height: 100vh;
   padding: 40px 20px;
   font-family: 'Segoe UI', sans-serif;
@@ -28,7 +28,7 @@
 }
 
 .model-card {
-  background-color: #b4d5d0;
+  background-color: #f2f4f4;
   border-radius: 10px;
   padding: 20px;
   width: 250px;
@@ -42,7 +42,7 @@
 
 .model-card p {
   font-size: 16px;
-  margin: 5px 0;
+  margin: 6px 0;
 }
 
 .process-section {

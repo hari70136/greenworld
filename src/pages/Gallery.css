@@ -1,8 +1,8 @@
 .gallery-container {
   padding: 40px 20px;
   text-align: center;
-  background-color: #f0fdf4;
-  color: #14532d;
+  background-color: rgb(168, 168, 182);
+  color: #0b0b0b;
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -49,9 +49,9 @@
 }
 
 .caption {
-  margin-top: 8px;
-  font-size: 14px;
-  color: #14532d;
+  margin-top: 4px;
+  font-size: 18px;
+  color: #0c0d0c;
 }
 .quote-button {
   display: inline-block;

@@ -1,18 +1,26 @@
+/* 🔷 Top Contact Bar */
+.top-contact-bar {
+  background-color: #b5e4dd;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #22c55e;
+  background-color: #066027;
   padding: 10px 20px;
   color: white;
   position: sticky;
   top: 0;
   z-index: 1000;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .nav-links {
@@ -22,7 +30,7 @@
 }
 
 .nav-links li a {
-  color: white;
+  color: rgb(244, 242, 242);
   text-decoration: none;
   font-weight: 500;
 }
@@ -32,7 +40,7 @@
   font-size: 24px;
   background: none;
   border: none;
-  color: white;
+  color: rgb(247, 245, 245);
   cursor: pointer;
 }
 
@@ -42,31 +50,109 @@
     display: block;
   }
 
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #22c55e;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    padding: 10px 0;
-  }
+.nav-links {
+  display: flex;
+  flex-direction: row; /* ✅ Horizontal layout */
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
 
-  .nav-links.open {
-    display: flex;
-  }
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
 
-  .nav-links li {
-    padding: 10px;
-    text-align: center;
-  }
+.nav-links li a:hover {
+  color: #facc15;
+}
+
+
+.nav-links li a svg {
+  transition: transform 0.3s ease;
+}
+
+.nav-links li a:hover svg {
+  transform: scale(1.2) rotate(-5deg);
+}
 }
 .logo-img {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%; /* Makes it round */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
   object-fit: cover;
-  border: 2px solid white;
+  border: 2px solid rgb(43, 203, 181);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.logo-img:hover {
+  transform: scale(1.1) rotate(3deg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 600px) {
+  .top-contact-bar {
+    font-size: 10px;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+  }
+}
+.top-contact-bar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.logo-tagline {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-weight: 500;
+}
+.youtube-float {
+  position: fixed;
+  bottom: 90px; /* Adjust to sit above WhatsApp */
+  right: 20px;
+  background-color: #FF0000;
+  color: white;
+  font-size: 28px;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 999;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.youtube-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+.scroll-top {
+  position: fixed;
+  bottom: 160px;
+  right: 20px;
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 999;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-top:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+

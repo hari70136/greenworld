@@ -2,7 +2,7 @@
   background-color: #74e2d7; /* ✅ Light eco-friendly green-blue background */
   min-height: 100vh;
   padding: 40px 20px;
-  color: #14532d;
+  color: #0d0e0d;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
 }
@@ -25,7 +25,7 @@
 }
 
 .timeline-item {
-  background-color: #701c1c;
+  background-color: #1e1380;
   border-left: 4px solid #f2f4f3;
   padding: 20px;
   width: 90%;

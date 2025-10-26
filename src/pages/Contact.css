@@ -1,9 +1,9 @@
 .contact-container {
-  background-color: #e6f4ea;
+  background-color: #bdb7d0;
   min-height: 100vh;
   padding: 40px 20px;
   font-family: 'Segoe UI', sans-serif;
-  color: #14532d;
+  color: #121313;
   text-align: center;
 }
 
@@ -21,7 +21,7 @@
   max-width: 600px;
   margin: 0 auto;
   text-align: left;
-  background-color: #d1fae5;
+  background-color: #0e9dac;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -33,7 +33,7 @@
 }
 
 .contact-details a {
-  color: #14532d;
+  color: #2c099e;
   text-decoration: underline;
 }
 .phone-list {
@@ -47,7 +47,7 @@
 }
 
 .phone-list a {
-  color: #22c55e;
+  color: #2c099e;
   font-weight: bold;
   text-decoration: none;
 }
@@ -66,7 +66,7 @@
 }
 
 .email-list a {
-  color: #22c55e;
+  color: #2c099e;
   font-weight: bold;
   text-decoration: none;
 }
